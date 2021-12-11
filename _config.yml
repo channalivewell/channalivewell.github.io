@@ -1,0 +1,18 @@
+title: Channa Livewell
+suffix: Channa Livewell
+description: Channa Livewell -- description
+
+name: Channa Livewell - name
+url: "https://channalivewell.com"
+baseurl: ""
+base_canonical: "https://channalivewell.com"
+permalink: 
+
+social:
+   facebook: https://www.facebook.com/channalivewell
+   instagram: 
+   line:
+   email: channa.livewell@gmail.com
+   github: https://github.com/channalivewell/channalivewell.github.io
+
+google_analytics: "G-8J35TTB3MP"
