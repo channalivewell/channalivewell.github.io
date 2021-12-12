@@ -1,30 +1,25 @@
 <!-- Footer -->
-<footer class="blog-footer bg-light text-dark">
-
-    <div class="container py-0">
-        <div class="row px-0">
-
-            <!-- site label -->
-            <div class="col-10 px-0 my-auto text-left">
-                <p>
-                    &copy; {{ site.name }}
-                    <span class="fb-like ml-1" data-href="{{ site.social.facebook }}" data-width="" data-layout="button"
-                        data-action="like" data-size="small" data-share="false"></span>
-                </p>
+<footer id="channels" class="bg-dark text-light py-2">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-12 text-right">
+                <h6 class="text-uppercase">Our channels</h6>
+                <ul class="nav float-right">
+                    <li><a class="text-white mr" href="{{ site.social.line }}" title="Line"><i
+                                class="h1 fab fa-fw fa-line fa-3x"></i></a></li>
+                    <li><a class="text-white mr" href="{{ site.social.instagram }}" title="Instagram"><i
+                                class="h1 fab fa-fw fa-instagram fa-3x"></i></a></li>
+                    <li><a class="text-white mr" href="{{ site.social.facebook }}" title="Facebook"><i
+                                class="h1 fab fa-fw fa-facebook fa-3x"></i></a></li>
+                    <li><a class="text-white mr" href="{{ site.social.email }}" title="Email"><i
+                                class="h1 far fa-fw fa-envelope fa-3x"></i></a></li>
+                </ul>
             </div>
-
-            <!-- channels -->
-            <div class="col-2 px-0 text-right">
-                <!-- <a class="mx-2" href="{{ site.social.line }}">
-                    <i class="fab fa-line fa-3x" style="color:#00B900;"></i>
-                </a> -->
-                <a class="mx-2" href="{{ site.social.facebook }}">
-                    <i class="fab fa-facebook fa-3x" style="color:#3b5998;"></i>
-                </a>
-                <!-- <a class="mx-2" href="{{ site.social.github }}">
-                    <i class="fab fa-github fa-3x" style="color:#000;"></i>  
-                </a> -->
-            </div>
+            <!-- <div class="col-6">
+                <h6 class="text-uppercase">Find Us</h6>
+                ดอนเมือง กรุงเทพมหานคร
+            </div> -->
         </div>
-
+        <!-- /row -->
+    </div>
 </footer>
