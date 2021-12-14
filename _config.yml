@@ -10,9 +10,18 @@ permalink:
 
 social:
    facebook: https://www.facebook.com/channalivewell
-   instagram: 
-   line:
+   instagram: https://www.instagram.com/channa.livewell/
+   line: https://lin.ee/Mp5hEZg
    email: channa.livewell@gmail.com
    github: https://github.com/channalivewell/channalivewell.github.io
 
 google_analytics: "G-8J35TTB3MP"
+
+form:
+   payment: "https://forms.gle/gRcuzqJp1eoqoSFT7"
+   bentoOrder_01:
+   bentoOrder_02:
+   bentoOrder_03:
+   dishoOrder_01:
+   dishoOrder_02:
+   dishoOrder_03:
