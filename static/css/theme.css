@@ -2812,6 +2812,7 @@ input[type="button"].btn-block {
 .nav-link:hover,
 .nav-link:focus {
   text-decoration: none;
+  color: #AD3965 !important;
 }
 .nav-link.disabled {
   color: #6c757d;
