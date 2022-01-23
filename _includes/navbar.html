@@ -1,7 +1,11 @@
 <!-- Navigation -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" id="navbar1">
     <div class="container">
-        <a class="navbar-brand mr-1 mb-1 mt-0 font-weight-bold" href="{{ site.base_url }}/">{{ site.title }}</a>
+        <a class="navbar-brand mr-1 mb-1 mt-0 font-weight-bold" href="{{ site.base_url }}/">
+            <img src="{{ "/static/img/0_logo.png" | prepend: site.baseurl }}" 
+                alt="logo" style="height: 1.5em;">
+            {{ site.title }}
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
