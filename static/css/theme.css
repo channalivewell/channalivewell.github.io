@@ -7603,3 +7603,7 @@ a.text-dark:focus {
 #icons img {
   width: 160px;
 }
+
+.footer_icon :hover {
+  color: #cf89a4 !important;
+}
