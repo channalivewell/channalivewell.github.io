@@ -4811,10 +4811,11 @@ button.close {
   background-color: rgba(0,0,0,0.25);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: auto 100%;
 }
 .cover-text {
   font-family: 'Dancing Script', cursive;
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
 
 .banner {
@@ -4822,10 +4823,11 @@ button.close {
   background-color: rgba(0,0,0,0.25);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: auto 100%;
 }
 .banner-text {
   /* font-family: 'Dancing Script', cursive; */
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
 
 a.bg-primary:hover,
