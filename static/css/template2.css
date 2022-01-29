@@ -12,12 +12,15 @@ body {
 
 /* hidden spacer before sections for proper offset */
 section:before {
-  height: 50px;
+  height: 40px;
   content: "";
   display: block;
 }
 
 /* helpers */
+.vh-25 {
+  min-height: 25vh;
+}
 .vh-50 {
   min-height: 50vh;
 }
