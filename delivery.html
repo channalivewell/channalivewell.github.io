@@ -10,7 +10,7 @@ canonical_url: /delivery/
     <div class="container">
         <div class="row align-items-center vh-50 py-5">
             <div class="col-12 text-dark text-center">
-                    <p class="mt-0 mb-0 cover-text">
+                    <p class="mt-0 mb-0 banner-text">
                         Let food be your medicine
                     </p>
             </div>
@@ -27,13 +27,13 @@ canonical_url: /delivery/
         </p>
     </div>
 
-    <a href="#menu-1" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">เมนูรอบอาทิตย์ที่ XXX</a>
-    <a href="#menu-2" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">เมนูรอบอาทิตย์ที่ YYY</a>
-    <a href="#howto" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">วิธีการสั่ง</a>
+    <a href="#menu-1" class="btn btn-primary btn-lg px-2 my-2" role="button">เมนูรอบอาทิตย์ที่ XXX</a>
+    <a href="#menu-2" class="btn btn-primary btn-lg px-2 my-2" role="button">เมนูรอบอาทิตย์ที่ YYY</a>
+    <a href="#howto" class="btn btn-primary btn-lg px-2 my-2" role="button">วิธีการสั่ง</a>
 
     <hr>
     
-    <h4 class="jumbotron py-4">ชนิดอาหาร</h4>
+    <h4 id="offering" class="jumbotron py-4">ชนิดอาหาร</h4>
     <h4 class="font-weight-bold">ชุดข้าวกล่อง</h4>
     <p class="mb-4">
         6 กล่อง 1,090 บาท: ข้าวกล้อง กับข้าว และเครื่องเคียง จำนวน 6 กล่อง <br>
@@ -151,7 +151,9 @@ canonical_url: /delivery/
     <h4 id="howto" class="jumbotron py-4">วิธีการสั่ง</h4>
     <h4 class="font-weight-bold">ช่องทาง</h4>
     <p class="mb-4">
-        สั่งผ่านทาง Website และ Line: @channa เท่านั้น
+        สั่งผ่านทาง website และ 
+        Line: <a href="{{ site.social.line }}" target="_blank" title="@channa" class="font-weight-bold">@channa</a> 
+        เท่านั้น
     </p>
     
     <h4 class="font-weight-bold">การชำระเงิน</h4>
@@ -160,9 +162,26 @@ canonical_url: /delivery/
     </p>
     <h4 class="font-weight-bold">ข้อควรรู้</h4>
     <ol>
-        <li>XXX</li>
-        <li>XXX</li>
-        <li>XXX</li>
+        <li>สั่งได้ผ่านช่องทาง website และ 
+            Line: <a href="{{ site.social.line }}" target="_blank" title="@channa" class="font-weight-bold"><b>@channa</b></a> 
+        </li>
+        <li>กรุณากรอกแบบสอบถามก่อนสั่ง (เพื่อแจ้งข้อจำกัดทางอาหาร)</li>
+        <li>ตัดรอบสั่งทุกวันพุธ ภายในเวลา 16.00 น. ส่งถึงในวันอาทิตย์</li>
+        <li>
+            อาหารจะถูกส่งออกทุกวันเสาร์ และถึงในวันอาทิตย์ โดยรถขนส่งควบคุมอุณหภูมิ 
+            (จำเป็นต้องมีผู้รับ โดยขนส่งจะโทรแจ้งล่วงหน้าก่อนเข้าส่ง)
+        </li>
+        <li>
+            หากมารับอาหารเองสามารถมารับได้ ทุกวันเสาร์ เวลา xx-xx ที่ 
+            <a href="{{ site.social.maps }}" target="_blank" 
+            title="Google Maps">Channa ชาญนา (ในโครงการ Goodpark Residence, ข้าง CP fresh mart)
+            </a> 
+        </li>
+        <li>
+            เมนูจะอัพเดตล่วงหน้าทุกวันพฤหัสช่วงเช้า ก่อนรอบส่ง 2 สัปดาห์ ผ่านทาง 
+            <a href="#channels">website, Line, Facebook, และ Instagram</a>
+        </li>
+        <li>หากเลือกวิธีการส่งและชำระเงินแล้วไม่สามารถเปลี่ยนแปลงหรือขอเงินคืนได้</li>
     </ol>
 
 </section>
