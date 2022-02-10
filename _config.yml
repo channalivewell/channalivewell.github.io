@@ -3,9 +3,9 @@ suffix: Channa Livewell
 description: Channa Livewell -- description
 
 name: Channa Livewell - name
-url: "https://channalivewell.com"
+url: "https://www.channalivewell.com"
 baseurl: ""
-base_canonical: "https://channalivewell.com"
+base_canonical: "https://www.channalivewell.com"
 permalink: 
 
 social:
@@ -19,10 +19,6 @@ social:
 google_analytics: "G-8J35TTB3MP"
 
 form:
-   payment: "https://forms.gle/gRcuzqJp1eoqoSFT7"
-   bentoOrder_01:
-   bentoOrder_02:
-   bentoOrder_03:
-   dishoOrder_01:
-   dishoOrder_02:
-   dishoOrder_03:
+   class: "https://forms.gle/XRYRPH4Zrrx6zBYV8"
+   delivery: 
+   feedback: "https://forms.gle/TFFC5dbuTBNyBs2fA"
