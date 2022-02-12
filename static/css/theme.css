@@ -4806,30 +4806,6 @@ button.close {
   background-color: #FFF0E8 !important;
 }
 
-.cover {
-  background-image: url('/static/img/1_cover.jpg');
-  background-color: rgba(0,0,0,0.25);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
-}
-.cover-text {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2rem;
-}
-
-.banner {
-  background-image: url('/static/img/1_banner.png');
-  background-color: rgba(0,0,0,0.25);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
-}
-.banner-text {
-  /* font-family: 'Dancing Script', cursive; */
-  font-size: 2rem;
-}
-
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,

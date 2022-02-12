@@ -30,3 +30,27 @@ section:before {
 .vh-100 {
   min-height: 100vh;
 }
+
+.cover {
+  background-image: url('/static/img/1_cover.jpg');
+  background-color: rgba(0,0,0,0.25);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+.cover-text {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.banner {
+  background-image: url('/static/img/2_banner05.jpg');
+  background-color: rgba(0,0,0,0.25);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.banner-text {
+  /* font-family: 'Dancing Script', cursive; */
+  font-size: 2rem;
+}
