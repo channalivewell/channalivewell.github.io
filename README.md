@@ -1,1 +1,1 @@
-Repository to host content for https://channalivewell.com
+Repository to host content for https://www.channalivewell.com
