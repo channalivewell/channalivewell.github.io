@@ -13,7 +13,9 @@
     // loop .nav-item -- set .active if it is in use
     for (let item of navItems) {
         // check if {{ page.category }} === last word of item's text in lowercase format
-        if ("{{ page.category }}" === item.innerText.split(/[\s,]+/).pop().toLowerCase()) {
+        if (("{{ page.category }}" === item.innerText.split(/[\s,]+/).pop().toLowerCase())
+            || ("{{ page.category }}" + "s" === item.innerText.split(/[\s,]+/).pop().toLowerCase())
+        ) {
             item.classList.add("active")
             break
         }
