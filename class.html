@@ -28,9 +28,7 @@ canonical_url: /class/
             มาเริ่มต้นสุขภาพดีไปกับ "ชาญนา"
         </h4>
         <a href="#class-offering" class="btn btn-primary btn-lg px-4 mb-2" role="button">คลาสที่เปิดสอน</a>
-        <a href="{{ site.form.class }}" target="_blank" class="btn btn-primary btn-lg px-4 mb-2" role="button">สมัครเรียน</a>
-        <a href="#class-schedule" class="btn btn-primary btn-lg px-4 mb-2" role="button">ตารางเรียน</a>
-        <a href="#howto" class="btn btn-primary btn-lg px-4 mb-2" role="button">ขั้นตอนการสมัคร</a>
+        <a href="#register" class="btn btn-primary btn-lg px-4 mb-2" role="button">สมัครเรียน</a>
     </div>
 
     <div class="row">
@@ -40,11 +38,13 @@ canonical_url: /class/
         คลาสเรียนของ “ชาญนา” ถูกออกแบบขึ้นมาบนพื้นฐานของ Culinary Medicine ซึ่งเป็นองค์ความรู้ที่ศึกษาเกี่ยวกับการทำอาหาร โภชนาการ และสุขภาพ บนพื้นฐานของหลักฐานทางวิทยาศาสตร์ (evidence-based) โดย “ชาญนา” ได้จัดกิจกรรมในรูปแบบ Teaching Kitchen ที่มีการให้ความรู้เรื่องสุขภาพและอาหารที่เข้าใจง่าย นำไปใช้ได้จริง พร้อมกับทำอาหารร่วมด้วย
     </p>
     
-    <h4 id="class-offering" class="jumbotron py-4">ขณะนี้ “ชาญนา” มีทั้งหมด 4 คลาสเรียน ดังนี้</h4>
+    <h4 id="class-offering" class="jumbotron py-4">Private Class</h4>
+    <p>คลาสเรียนส่วนตัวไม่เกิน 2 คน นัดเวลาเรียนตามสะดวก (กลุ่มมากกว่า 2 คน สอบถามเพิ่มเติม)</p>
+    <p>รับสอนนอกสถานที่ ส่วนตัวหรืองานกิจกรรมต่างๆ</p>
     <div class="card mb-3">
         <div class="row no-gutters">
             <div class="col-lg-4 col-md-6 order-md-1">
-                <img src="/static/img/class_01.png" class="card-img" alt="Banana Date Cake">
+                <img src="/static/img/class_01.png" class="card-img" alt="rice bowl">
             </div>
             <div class="col-lg-8 col-md-6 order-md-2">
                 <div class="card-body">
@@ -69,50 +69,81 @@ canonical_url: /class/
                         <ul>
                             <li>Plant based DIY rice bowl</li>
                         </ul>
+                        <a href="#register" class="btn btn-primary btn-lg px-4 mb-2" role="button">สมัครเรียน</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <ul>
-        <li class="my-4">
-            <span class="font-weight-bold">Meal prep guide to healthier lifestyle สุขภาพดีง่ายๆ เริ่มได้ที่อาหาร</span> 
-            <a href="{{ site.form.class }}" target="_blank" class="btn btn-primary btn-lg mx-2 mb-2" role="button">สมัครเรียน</a> 
-            <br>
-            ราคา 3,950 บาท / คน ระยะเวลาเรียน 3 ชั่วโมง
-            <br>
-            เหมาะสำหรับ:
-            <ul>
-                <li>ผู้สนใจทั่วไป</li>
-                <li>ผู้เริ่มต้นทำอาหารเพื่อสุขภาพ</li>
-                <li>ผู้ที่ต้องการเริ่มต้นปรับเปลี่ยนพฤติกรรมให้มีสุขภาพดีมากยิ่งขึ้น</li>
-            </ul>
-            เนื้อหาครอบคลุม:
-            <ul>
-                <li>โภชนาการเพื่อสุขภาพดีอย่างสมดุลเบื้องต้น</li>
-                <li>ตัวอย่างเมนูอาหารเพื่อสุขภาพอย่างง่าย 1 เมนู</li>
-                <li>เทคนิคการเตรียมและทำอาหารเพื่อสุขภาพเบื้องต้น (เลือกวัตถุดิบ เตรียมวัตถุดิบ ทำอาหาร และจัดเก็บ)</li>
-            </ul>
-            เมนูที่ทำ:
-            <ul>
-                <li>Plant based DIY rice bowl</li>
-            </ul>
-        </li>
-    </ul>
+    <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-md-6 order-md-2">
+                <img src="/static/img/product_01.png" class="card-img" alt="Banana Date Cake">
+            </div>
+            <div class="col-lg-8 col-md-6 order-md-1">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Banana Date Cake</h5>
+                    <p class="card-text">
+                        ราคา 3,500 บาท / คน ระยะเวลาเรียน 2 ชั่วโมง
+                    </p>
+                    <p class="card-text">
+                        <ul>
+                            <li>ขนมเค้กไร้ผลิตภัณฑ์จากนมวัวและน้ำตาล (No Dairy, No Sugar)</li>
+                            <li>หวานน้อย ใช้ความหวานจริงจากอินทผลัมและกล้วยหอม</li>
+                            <li>ผลิตจากวัตถุดิบธรรมชาติ 100%</li>
+                            <li>ไม่ใส่สารกันบูด</li>
+                            <li>ผู้ที่มี Lactose intolerance ทานได้</li>
+                            <li>ผู้ที่ควบคุมระดับน้ำตาลทานได้</li>
+                            <li>225 แคลอรี/ชิ้น</li>
+                        </ul>
+                        <a href="#register" class="btn btn-primary btn-lg px-4 mb-2" role="button">สมัครเรียน</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-md-6 order-md-1">
+                <img src="/static/img/product_02.png" class="card-img" alt="Miso Carrot Cake">
+            </div>
+            <div class="col-lg-8 col-md-6 order-md-2">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Miso Carrot Cake</h5>
+                    <p class="card-text">
+                        ราคา 3,500 บาท / คน ระยะเวลาเรียน 2 ชั่วโมง
+                    </p>
+                    <p class="card-text">
+                        <ul>
+                            <li>ขนมเค้กไร้ผลิตภัณฑ์จากนมวัวและน้ำตาล (No Dairy, No Sugar)</li>
+                            <li>หวานน้อย ใช้ความหวานจริงจากลูกเกด</li>
+                            <li>ผลิตจากวัตถุดิบธรรมชาติ 100%</li>
+                            <li>ไม่ใส่สารกันบูด</li>
+                            <li>ผู้ที่มี Lactose intolerance ทานได้</li>
+                            <li>ผู้ที่ควบคุมระดับน้ำตาลทานได้</li>
+                            <li>155 แคลอรี/ชิ้น</li>
+                        </ul>
+                    </p>
+                    <a href="#register" class="btn btn-primary btn-lg px-4 mb-2" role="button">สมัครเรียน</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <hr>
 
-    <h4 id="howto" class="jumbotron py-4">วิธีการสมัครเรียน</h4>
+    <h4 id="register" class="jumbotron py-4">วิธีการสมัครเรียน</h4>
     <h4 class="font-weight-bold">ช่องทาง</h4>
     <p class="mb-4">
-        สมัครผ่านทาง website และ 
-        Line: <a href="{{ site.social.line }}" target="_blank" title="@channa" class="font-weight-bold">@channa</a> 
-        เท่านั้น
+        สมัครผ่านทาง 
+        <a href="{{ site.social.facebook }}" target="_blank" title="fb-channa" class="font-weight-bold">Facebook</a>, 
+        <a href="{{ site.social.instagram }}" target="_blank" title="ig-channe" class="font-weight-bold">Intagram</a>,  
+        หรือ <a href="{{ site.social.line }}" target="_blank" title="@channa" class="font-weight-bold">Line@channa</a>
     </p>
     
     <h4 class="font-weight-bold">การชำระเงิน</h4>
     <p class="mb-4">
-        โอนเงินผ่านธนาคาร (เลขบัญชีในแบบฟอร์มการสมัครเรียน)
+        โอนเงินผ่านธนาคาร (เลขบัญชีในใบสมัครเรียน)
     </p>
 
     <h4 class="font-weight-bold">สถานที่เรียน</h4>
@@ -125,14 +156,12 @@ canonical_url: /class/
 
     <h4 class="font-weight-bold">ข้อควรทราบก่อนสมัครเรียน</h4>
     <ol>
-        <li>สมัครเรียนได้ผ่านช่องทาง website และ 
-            Line: <a href="{{ site.social.line }}" target="_blank" title="@channa" class="font-weight-bold"><b>@channa</b></a> 
+        <li>สมัครเรียนได้ผ่านช่องทาง 
+            <a href="{{ site.social.facebook }}" target="_blank" title="fb-channa">Facebook</a>, 
+            <a href="{{ site.social.instagram }}" target="_blank" title="ig-channe">Intagram</a>,  
+            หรือ <a href="{{ site.social.line }}" target="_blank" title="@channa">Line@channa</a> 
         </li>
-        <li>กรอกแบบสอบถามก่อนสมัครเรียนทุกครั้ง</li>
-        <li>
-            ตารางเรียนจะอัพเดตทุกวันที่ 15 ของทุกเดือนผ่านทาง 
-            <a href="{{ site.base_url }}/contact" target="_blank">website, Line, Facebook, และ Instagram</a>
-        </li>
+        <li>กรอกใบสมัครเรียน เพื่อยืนยันการสมัครเรียนทุกครั้ง</li>
         <li>กรุณาสมัครเรียนก่อนกำหนดเรียนอย่างน้อย 3 วัน</li>
         <li>
             กรุณาชำระเงินหลังจากสมัครเรียนภายใน 16.00 น. ของวันถัดไป 
@@ -142,7 +171,7 @@ canonical_url: /class/
             หากสมัครเรียนและชำระเงินแล้ว จะไม่สามารถขอเงินคืนได้ 
             แต่สามารถเปลี่ยนคลาสเรียนหรือเปลี่ยนผู้เรียนได้โดยแจ้งล่วงหน้าอย่างน้อย 3 วัน 
         </li>
-        <li>กรุณาเข้าเรียนตรงเวลาหากไม่ต้องการพลาดเนื้อหาดีๆ</li>
+        <li>กรุณาเข้าเรียนตรงเวลา</li>
         <li>
             เนื้อหา ข้อความ และสูตร (materials and content) ที่ใช้ในการสอนถือเป็นลิขสิทธิ์ของชาญนา 
             ห้ามนำไปเผยแพร่หรือกล่าวอ้างโดยไม่ได้รับอนุญาต
